@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Akzidenz Grotesk';
+    src: url('https://will-paul.com/fonts/akzidenzgroteskpro-light-webfont.eot');
+    src: url('https://will-paul.com/fonts/akzidenzgroteskpro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://will-paul.com/fonts/akzidenzgroteskpro-light-webfont.woff2') format('woff2'),
+         url('https://will-paul.com/fonts/akzidenzgroteskpro-light-webfont.woff') format('woff'),
+         url('https://will-paul.com/fonts/akzidenzgroteskpro-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk';
+    src: url('https://will-paul.com/fonts/akzidenzgroteskpro-lightit-webfont.eot');
+    src: url('https://will-paul.com/fonts/akzidenzgroteskpro-lightit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://will-paul.com/fonts/akzidenzgroteskpro-lightit-webfont.woff2') format('woff2'),
+         url('https://will-paul.com/fonts/akzidenzgroteskpro-lightit-webfont.woff') format('woff'),
+         url('https://will-paul.com/fonts/akzidenzgroteskpro-lightit-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk';
+    src: url('https://will-paul.com/fonts/akzidenzgroteskpro-md-webfont.eot');
+    src: url('https://will-paul.com/fonts/akzidenzgroteskpro-md-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://will-paul.com/fonts/akzidenzgroteskpro-md-webfont.woff2') format('woff2'),
+         url('https://will-paul.com/fonts/akzidenzgroteskpro-md-webfont.woff') format('woff'),
+         url('https://will-paul.com/fonts/akzidenzgroteskpro-md-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk';
+    src: url('https://will-paul.com/fonts/akzidenzgroteskpro-mdit-webfont.eot');
+    src: url('https://will-paul.com/fonts/akzidenzgroteskpro-mdit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://will-paul.com/fonts/akzidenzgroteskpro-mdit-webfont.woff2') format('woff2'),
+         url('https://will-paul.com/fonts/akzidenzgroteskpro-mdit-webfont.woff') format('woff'),
+         url('https://will-paul.com/fonts/akzidenzgroteskpro-mdit-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+  font-family: 'Akzidenz Grotesk', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}

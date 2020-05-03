@@ -4,6 +4,8 @@
 
 mkdir -p target/ &&
   cat \
+    <(echo "> No story. Just the recipe. Use as is or upload the .recipe to [Grocery](https://apps.apple.com/us/app/grocery-smart-shopping-list/id1195676848)") \
+    <(echo '') \
     <(echo '## Appetizers') \
     <(git ls-files appetizers/*.recipe | \
       xargs -I {} bash -c 'echo - [$(basename {} .recipe)]\($(dirname {})/$(basename {} .recipe).html\)' ) \

@@ -24,6 +24,6 @@ mkdir -p target/ &&
     <(echo '## Meals') \
     <(git ls-files meals/*.recipe | \
       xargs -I {} bash -c 'echo - [$(basename {} .recipe)]\($(dirname {})/$(basename {} .recipe).html\)' ) \
-      | pandoc -f markdown -s -t html5 --css styles.css -o target/index.html
+      | pandoc -s -f markdown -t html5 --css styles.css -o target/index.html
 
 

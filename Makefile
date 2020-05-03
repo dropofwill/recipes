@@ -12,7 +12,7 @@ deploy: all
 	cd target && \
 	git add --all && \
 	git commit -m "Deploy to gh-pages $(git log '--format=format:%H' master -1)" && \
-	echo "git push origin gh-pages"
+	git subtree push --prefix target origin gh-pages
 
 clean:
 	rm -rf target/*

@@ -58,6 +58,10 @@ body {
   padding: 2rem;
 }
 
+body > * {
+  max-width: 800px;
+}
+
 hr {
   border: solid black 5px;
   margin: 3rem 0 1.5rem;

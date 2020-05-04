@@ -2,20 +2,15 @@
 
 Instead of storing all the recipes I use regularly in my ever growing browser history, I'm putting them here in the [Grocery Recipe Format](https://github.com/cnstoll/Grocery-Recipe-Format), which is a layer on top of Markdown that the iOS app [Grocery](https://apps.apple.com/us/app/grocery-smart-sorting-grocery-list/id1195676848) uses and is quite pleasant to use.
 
-## Structure
+## Development
 
-```
-title-with-dashes-for-spaces.recipe
-```
+To load into grocery simply copy files to iPhone (e.g. via AirDrop), then move to Grocery recipe folder.
 
-OR with photos
+To add a new recipe use `./new_recipe.sh recipe-name-with-dashes directory-of-type/`
 
-```
-title-with-dashes-for-spaces.recipepackage
-└── title-with-dashes-for-spaces.recipe
-└── Photos
-    └── any-name.(png|jpg)
-```
+`./build.sh` creates the static site in `target/`
+
+`./publish.sh` deploys it to gh-pages
 
 ## License
 

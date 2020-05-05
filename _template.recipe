@@ -6,13 +6,15 @@
 - count ingredient | 3
 - weight ingredient | 300g
 
-> Add steps
+Add steps
 
-> Steps can include timers, which take the form
+Steps can include timers, which take the form
 
-> 2 hours
+2 hours
 
-> 1 hour and 30 minutes [Optional label]
+> Include notes
+
+1 hour and 30 minutes [Optional label]
 
 ---
 
